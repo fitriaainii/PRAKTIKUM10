@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <form action="" method="POST">
+            <table border="1" width="500" align="center" style="background-color:rgb(253, 246, 208)">
+            <td>
+            <h1 align="center">Form</h1>
+            <div>
+                <label for=""> &nbsp; Nama Pelanggan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+                <input type="text" name="name" id="name" >
+                <p id="error_name"></p>
+
+                <label for=""> &nbsp; Email &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:</label>
+                <input type="text" name="email" id="email">
+                <p id="error_email"></p>
+
+                <label for=""> &nbsp; Jam Keberangkatan &nbsp; &nbsp; &nbsp;:</label>
+                <input type="time" name="" id="jam">
+                <p id="error_jam"></p>
+
+                <label for=""> &nbsp; Tujuan Keberangkatan :</label>
+                <input type="text" name="tujuan" id="tujuan">
+                <p id="error_tujuan"></p>
+
+                <label for=""> &nbsp; Jumlah Tiket &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:</label>
+                <input type="text" name="tiket" id="tiket">
+                <p id="error_tiket"></p>
+
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp;<button type="submit" value="submit" id="submit">Submit</button>
+            </div>
+            </td>
+            </table>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div>
+        <table border="1" width="500" align="center" style="background-color:rgb(223, 213, 157)">
+        <td>
+        <h1 id="hasil" align="center"></h1>
+        <p id="hasil_nama"></p>
+        <p id="hasil_email"></p>
+        <p id="hasil_jam"></p>
+        <p id="hasil_tujuan"></p>
+        <p id="hasil_tiket"></p>
+        </td>
+        <table></table>
+    </div>
+    <script src="formvalidasi.js"></script>
+</body>
+</html>
